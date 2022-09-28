@@ -1,0 +1,16 @@
+div{
+    margin: 50px;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+}
+
+body{
+    background-color: grey;
+}
+
+footer{
+    padding: 2em;
+}

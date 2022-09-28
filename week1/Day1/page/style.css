@@ -1,0 +1,36 @@
+
+p{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+div{
+    text-align: center;
+}
+
+
+input{
+    font-size: large;
+}
+
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+
+a{
+    color: white;
+}
+
+footer{
+    margin: 200px;
+   
+}
+i{
+    font-size: 100px;
+    padding-left: 2em;
+
+}

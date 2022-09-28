@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+}
+
+#premier{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+    margin: 550px;
+    font-size: 30px;
+    color: blue;
+}
+
+i{
+    font-size: 120px;
+    padding-left: 5em;
+    color: white;
+}

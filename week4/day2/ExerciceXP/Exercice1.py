@@ -1,0 +1,10 @@
+my_fav_number={77,80,19}
+my_fav_number.add(65)
+my_fav_number.add(84)
+print(my_fav_number)
+my_fav_number.remove(19)
+print(my_fav_number)
+print("...")
+friend_fav_number={65,84,38}
+our_fav_number=list(my_fav_number)+list(friend_fav_number)
+print(our_fav_number)

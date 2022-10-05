@@ -1,0 +1,14 @@
+{% extends 'posts/animal.html' %}
+    {% block title %}
+    {{ page_title|default:"Animal" }}
+    {% endblock title %}
+
+{% block content %}
+    {{ block.super }}
+
+    <ul>
+        {% for x in families %}
+        <li>{{ x.id | title }} {{ x.name}}</li>
+        {% endfor %}
+    </ul>
+{% endblock content %}

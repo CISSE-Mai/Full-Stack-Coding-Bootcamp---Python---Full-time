@@ -1,0 +1,17 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {{ page_title|default:"Homepage" }}
+        {% endblock title %}
+    </title>
+</head>
+<body>
+    {% block content %}
+        <ul>
+            <li>{{people.id}} {{people.name}} {{people.age}} {{people.country}}</li>
+        </ul>
+    {% endblock content %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {{ page_title|default:"Homepage" }}
+        {% endblock title %}
+    </title>
+</head>
+<body>
+    {% block content %}
+        <ul>
+        {% for x in people %}
+            <li>{{x.id}} {{x.name}} {{x.age}} {{x.country}}</li>
+        {% endfor %}
+        </ul>
+    {% endblock content %}
+</body>
+</html>
